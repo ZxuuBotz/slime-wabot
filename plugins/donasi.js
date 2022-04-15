@@ -1,11 +1,11 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(fla + 'donasi')).buffer(), `››╭─〘 *Donasi* 〙
 ╭╡
-│┝‷✧ *Pulsa:* 6282195470493
-│┝‷✧ *Dana:* 6282195470493
+│┝‷✧ *Pulsa:* 6288270863279
+│┝‷✧ *Dana:* 6288270863279
 │╰───···─────
 │⁺◛˖ Ingin Donasi? Chat
-│wa.me/6281354079196?text=kak+mau+donasi
+│wa.me/6288270863279?text=kak+mau+donasi
 ╰──────────···───╮
 ▌│█║▌║▌║║▌║▌║█│▌
 `.trim(), `${wm}`, 'Owner', '.owner')
