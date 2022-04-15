@@ -17,7 +17,7 @@ let username = conn.getName(who)
     await this.send3ButtonLoc(m.chat, logo, `
 *hai, ${ucapan()}*
 
-${user.banned ? 'kamu dibanned' : 'Saya adalah SLIMEBOT, salah satu bot Whatsapp. harap tidak spam/telpon/minta save kemonor ini. Ada yang bisa saya bantu? (ㆁωㆁ)'}
+${user.banned ? 'kamu dibanned' : 'Saya adalah *DanzBot*, salah satu bot Whatsapp. harap tidak spam/telpon/minta save kemonor ini. Ada yang bisa saya bantu? (ㆁωㆁ)'}
 `.trim(), wm, user.register ? '⋮☰ Menu' : 'Verify', user.register ? '.menu' : `.daftar ${username}.13`, 'Rules', '.rules', 'Owner', '.owner', m)
     user.pc = new Date * 1
 }
@@ -27,16 +27,16 @@ function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
     res = "Selamat dinihari ☀️"
     if (time >= 4) {
-        res = "Good Morning 🌄"
+        res = "Selamat Siang 🌄"
     }
     if (time > 10) {
-        res = "Good Afternoon ☀️"
+        res = "Selamat Sore ☀️"
     }
     if (time >= 15) {
-        res = "Good Afternoon 🌇"
+        res = "Selamat Sore 🌇"
     }
     if (time >= 18) {
-        res = "Good Night 🌙"
+        res = "Selamat Malam 🌙"
     }
     return res
 }
