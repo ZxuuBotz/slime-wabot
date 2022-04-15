@@ -33,8 +33,8 @@ let info = `
 
 
 ◪ *Jika Minat Hubungi owner kami*
-◪ *Atau Masuk Group Official Bot*
-_https://chat.whatsapp.com/Hjr3H7l9iC8F2deP0cv6GT_
+◪ *Atau Masuk Group Official DanzBot*
+_https://chat.whatsapp.com/KuW6Ojk8b3NF8GIpt9v4EL_
 
 ▌│█║▌║▌║║▌║▌║█│▌
 ▌│█║▌║▌║║▌║▌║█│▌
