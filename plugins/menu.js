@@ -268,8 +268,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *Author :* Nurutomo
-┴ ▸ *Owner :* Adri
+│ ▸ *Author :* DanzBot
+┴ ▸ *Owner :* Danzz. 
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ Tolong jangan dispam ya biar ga delay
@@ -277,13 +277,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
      ▌│█║▌║▌║║▌║▌║█│▌
      
      ${week}, ${date}`,
-          "buttonText": "Click Here!",
+          "buttonText": "Silahkan Click!",
           "listType": "SINGLE_SELECT",
           "sections": [
                             {
                                 "rows": [{
                                          "title": "[📊] Status",
-                                         "description": "Status Kanna Bot",
+                                         "description": "Status DanzBot",
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "[⚡] Speed",
@@ -532,7 +532,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    // await conn.send3ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), '🎮 SlimeBotz', 'Creator', '.creator', 'Donasi', '.donasi', 'Rules', '.infobot', m)
+    // await conn.send3ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), '🎮 DanzBot', 'Creator', '.creator', 'Donasi', '.donasi', 'Rules', '.infobot', m)
     await conn.send3ButtonLoc(m.chat, logo, '──────────[ *DASHBOARD* ]──────────', text.trim(), 'Creator', '.creator', 'Donasi', '.donasi', 'Rules', '.rules', m)
     let nama = await conn.getName(m.sender)
     let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
@@ -550,7 +550,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         "productId": "4938174216214248",
         "title": '✧───────···[ Menu ]···────────✧',
         "description": `\n${wm}\n` + text,
-        "retailerId": `${week}, ${date}  |  BY ADRI ‷♪`,
+        "retailerId": `${week}, ${date}  |  BY DANZZ ‷♪`,
         "url": '\n',
         "descriptionCount": "999999999",
         "productImageCount": "1",
