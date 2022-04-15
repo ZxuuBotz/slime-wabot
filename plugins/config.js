@@ -88,11 +88,11 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '®SlimeBotz'
-global.author = '۰ © Bot Adri'
+global.packname = 'DanzBor'
+global.author = 'Danzz.'
 
 // silakan di ganti klo mau
-global.botwm = `🎮 SlimeBotz`//UBAH JADI NAMAMU
+global.botwm = `🎮 DanzBot`//UBAH JADI NAMAMU
 global.botdate = `╭──────────═┅═─────────\n│◪ ${time}\n┊◪ ${week} ${date}\n╰──────────═┅═─────────`
 global.imagebot = `https://telegra.ph/file/8212340502d985bec0e93.jpg`
 global.logo = fs.readFileSync('./src/logo3.jpg')
