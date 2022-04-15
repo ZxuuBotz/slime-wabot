@@ -50,9 +50,9 @@ function pickRandom(list) {
 }*/
 
 global.DeveloperMode = 'false' //Buat Mode True False Moderator
-global.linkGC = ['https://chat.whatsapp.com/F9dPQcOf82Z4Dc9uxE7Kh0'] // ganti jadi group lu
-global.owner = ['6281354079196', '6287735559197', '6287774166385', '628979667426'] // Put your number here
-global.mods = [] // Want some help?
+global.linkGC = ['https://chat.whatsapp.com/KuW6Ojk8b3NF8GIpt9v4EL'] // ganti jadi group lu
+global.owner = ['6288270863279', '6288270863279', '6288270863279', '6288270863279'] // Put your number here
+global.mods = ['6288270863279'] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
