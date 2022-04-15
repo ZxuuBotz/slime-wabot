@@ -780,7 +780,7 @@ await conn.sendMessage(jid, { "contentText": action === 'add' ? '─────
         if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```is no longer Admin```')
         text = text.replace('@user', '@' + participants[0].split('@')[0])
         let banp = fs.readFileSync('./src/kanna.jpg')
-        if (chat.detect) this.send2ButtonLoc(jid, banp, text, '🎮 SlimeBotz', 'MENU', '#menu', 'OWNER', '#owner', null, {
+        if (chat.detect) this.send2ButtonLoc(jid, banp, text, '🎮 DanzBot', 'MENU', '#menu', 'OWNER', '#owner', null, {
           contextInfo: {
             mentionedJid: this.parseMention(text)
           }
@@ -799,7 +799,7 @@ await conn.sendMessage(jid, { "contentText": action === 'add' ? '─────
 *◇ Number*: ${require('awesome-phonenumber')(`+${m.participant.split`@`[0]}`).getNumber('international')}
 
 klick untuk mematikannya atau ketik #disable delete
-`.trim(), '🎮 SlimeBotz', 'DISABLE DELETE', '.disable delete', {
+`.trim(), '🎮 DanzBot', 'DISABLE DELETE', '.disable delete', {
       quoted: m.message,
       contextInfo: {
         mentionedJid: [m.participant]
@@ -846,20 +846,20 @@ let user = conn.getName(who)
     botAdmin: '[❗] Bot Admin Only'
     /*unreg: `*── 「 NOT REGISTERED 」 ──*
 Halo @${m.sender.split`@`[0]} !
-Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database Bot
+Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database *DanzBot*
     
 📍 Ketik : #daftar nama.umur
-▸ Contoh : #daftar ${user}.13`*/
+▸ Contoh : #daftar ${user}.18`*/
   }[type]
   if (msg) return m.reply(msg)
   
   let msgg = {
   unreg: `*── 「 NOT REGISTERED 」 ──*
 Halo kak @${syappa.replace(/@.+/, '')} !
-Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database Bot 🗂️
+Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database *DanzBot*🗂️
     
 📍 *Ketik :* #daftar nama.umur
-⤿ *Contoh :* #daftar ${namae}.13`
+⤿ *Contoh :* #daftar ${namae}.18`
 }[type]
   if (msgg) return conn.sendButton(m.chat, msgg, botdate + '\n' + global.wm, 'Verify', `.daftar ${namae}.18`, m, { contextInfo: { mentionedJid: [syappa] }})
 }
