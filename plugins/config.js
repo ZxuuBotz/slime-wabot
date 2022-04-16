@@ -51,8 +51,8 @@ function pickRandom(list) {
 
 global.DeveloperMode = 'false' //Buat Mode True False Moderator
 global.linkGC = ['https://chat.whatsapp.com/KuW6Ojk8b3NF8GIpt9v4EL'] // ganti jadi group lu
-global.owner = ['6288270863279', '6288270863279', '6288270863279', '6288270863279'] // Put your number here
-global.mods = ['6288270863279'] // Want some help?
+global.owner = ['6285717281107', '6285717281107', '6285717281107', '6285717281107'] // Put your number here
+global.mods = ['6285717281107'] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -88,11 +88,11 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'DanzBor'
-global.author = 'Danzz.'
+global.packname = 'Botz'
+global.author = 'BlackBotz'
 
 // silakan di ganti klo mau
-global.botwm = `🎮 DanzBot`//UBAH JADI NAMAMU
+global.botwm = `🎮 BlackBotz`//UBAH JADI NAMAMU
 global.botdate = `╭──────────═┅═─────────\n│◪ ${time}\n┊◪ ${week} ${date}\n╰──────────═┅═─────────`
 global.imagebot = `https://telegra.ph/file/8212340502d985bec0e93.jpg`
 global.logo = fs.readFileSync('./src/logo3.jpg')
